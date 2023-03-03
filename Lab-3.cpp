@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	int base;
-	int exponent;
+   int base;
+   int exponent;
 
    cout << "This program will let the user raise any integer to any power\n";
    cout << "Hello user. Welcome to the Power Caculator!\n";
