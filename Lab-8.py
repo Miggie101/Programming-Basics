@@ -9,27 +9,27 @@ print()
 # loop starts
 run = "Y"
 while run == "Y":
-  # user input for math problem
-  choice = input("What type of math would you like to do? Please enter the first letter of the calculation: ").upper()
-  if choice not in ("A", "S", "M", "D", "T", "E"):
-    choice = input("ERROR!!! Please type A to add, S for sub, M to multiply, D to divide, T to truncate, E for exponent: ")
-  # user input
-  print()
+        # user input for math problem
+        choice = input("What type of math would you like to do? Please enter the first letter of the calculation: ").upper()
+        if choice not in ("A", "S", "M", "D", "T", "E"):
+                choice = input("ERROR!!! Please type A to add, S for sub, M to multiply, D to divide, T to truncate, E for exponent: ")
+# user input
+print()
   firstNumber = float(input("Enter first number: "))
   secondNumber = float(input("Enter seond number: "))
   print()
   # do calculation
-  if choice == "A":
-    typevari = "plus"
-    variAnswer = firstNumber + secondNumber
+if choice == "A":
+          typevari = "plus"
+          variAnswer = firstNumber + secondNumber
   elif choice == "S":
-    typevari = "subtracted by"
-    variAnswer = firstNumber - secondNumber
+          typevari = "subtracted by"
+          variAnswer = firstNumber - secondNumber
   elif choice == "M":
-    typevari = "multiplied by"
-    variAnswer = firstNumber * secondNumber
+          typevari = "multiplied by"
+          variAnswer = firstNumber * secondNumber
   elif choice == "D":
-		typevari = "divided by"
+          typevari = "divided by"
 		variAnswer = firstNumber / secondNumber
 	elif choice == "T":
 		typevari = "truncated by"
